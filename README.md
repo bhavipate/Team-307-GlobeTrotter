@@ -73,4 +73,25 @@ A smart travel planning and booking platform that enables users to explore desti
 * **Performance**: Optimized MySQL queries, API response time <1s.
 * **UI/UX**: Responsive layouts tested on desktop, tablet, and mobile.
 
+  ## How the System Works (High-Level Flow)
+
+1. **User visits GlobeTrotter**  
+   The React frontend loads instantly in the browser for a smooth user experience.
+
+2. **Signup/Login**  
+   User credentials are sent to the backend API, verified in the MySQL database, and a JWT token is returned for authentication.
+
+3. **Browse Destinations**  
+   The frontend fetches travel destination data from the backend API. Destination images are loaded from the media storage.
+
+4. **Book a Trip**  
+   User selects a destination and travel dates. The backend API creates a booking entry in the MySQL database.
+
+5. **Admin Management**  
+   Admin users review and approve or reject new travel listings through the admin dashboard.
+
+6. **Secure Access**  
+   All user and admin routes are protected using JWT tokens to ensure secure API access.
+
+
 
