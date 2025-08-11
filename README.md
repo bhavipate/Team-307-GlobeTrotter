@@ -79,13 +79,13 @@ A smart travel planning and booking platform that enables users to explore desti
    The React frontend loads instantly in the browser for a smooth user experience.
 
 2. **Signup/Login**  
-   User credentials are sent to the backend API, verified in the MySQL database, and a JWT token is returned for authentication.
+   User credentials are sent to the backend API, verified in the Postgresql database, and a JWT token is returned for authentication.
 
 3. **Browse Destinations**  
    The frontend fetches travel destination data from the backend API. Destination images are loaded from the media storage.
 
 4. **Book a Trip**  
-   User selects a destination and travel dates. The backend API creates a booking entry in the MySQL database.
+   User selects a destination and travel dates. The backend API creates a booking entry in the Postgresql database.
 
 5. **Admin Management**  
    Admin users review and approve or reject new travel listings through the admin dashboard.
