@@ -1,6 +1,9 @@
 🌍 GlobeTrotter — Odoo x Hackathon 2025
 A smart travel planning and booking platform that enables users to explore destinations, create itineraries, and manage bookings — all in one place. With secure authentication, a modern UI, and a robust backend, GlobeTrotter connects travelers with curated travel experiences while giving admins control to moderate and manage listings.
 
+## link for Documentation and video e project
+https://drive.google.com/drive/folders/1EA50NwvJ4vt8omBZ3ie6P2Qnxii9-cBE?usp=drive_link
+
 
 ## 🆔 Team ID: 307
 
