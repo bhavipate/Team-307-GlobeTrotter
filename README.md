@@ -1,6 +1,9 @@
 🌍 GlobeTrotter — Odoo x Hackathon 2025
 A smart travel planning and booking platform that enables users to explore destinations, create itineraries, and manage bookings — all in one place. With secure authentication, a modern UI, and a robust backend, GlobeTrotter connects travelers with curated travel experiences while giving admins control to moderate and manage listings.
 
+## link for Documentation and video e project
+https://drive.google.com/drive/folders/1EA50NwvJ4vt8omBZ3ie6P2Qnxii9-cBE?usp=drive_link
+
 
 ## 🆔 Team ID: 307
 
@@ -72,6 +75,27 @@ A smart travel planning and booking platform that enables users to explore desti
 * **Security**: bcrypt password hashing, SQL injection prevention, HTTPS.
 * **Performance**: Optimized MySQL queries, API response time <1s.
 * **UI/UX**: Responsive layouts tested on desktop, tablet, and mobile.
+
+  ## How the System Works (High-Level Flow)
+
+1. **User visits GlobeTrotter**  
+   The React frontend loads instantly in the browser for a smooth user experience.
+
+2. **Signup/Login**  
+   User credentials are sent to the backend API, verified in the Postgresql database, and a JWT token is returned for authentication.
+
+3. **Browse Destinations**  
+   The frontend fetches travel destination data from the backend API. Destination images are loaded from the media storage.
+
+4. **Book a Trip**  
+   User selects a destination and travel dates. The backend API creates a booking entry in the Postgresql database.
+
+5. **Admin Management**  
+   Admin users review and approve or reject new travel listings through the admin dashboard.
+
+6. **Secure Access**  
+   All user and admin routes are protected using JWT tokens to ensure secure API access.
+
 
 
 ## How the System Works (High-Level Flow)
